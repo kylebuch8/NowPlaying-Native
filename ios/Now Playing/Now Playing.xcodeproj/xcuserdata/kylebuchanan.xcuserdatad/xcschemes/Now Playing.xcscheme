@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8074DFC2180A3C7300C3AF2C"
+               BlueprintIdentifier = "80AE5C84180A3D5800B0BA9A"
                BuildableName = "Now Playing.app"
                BlueprintName = "Now Playing"
                ReferencedContainer = "container:Now Playing.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8074DFEC180A3C7300C3AF2C"
+               BlueprintIdentifier = "80AE5C9F180A3D5800B0BA9A"
                BuildableName = "Now PlayingTests.xctest"
                BlueprintName = "Now PlayingTests"
                ReferencedContainer = "container:Now Playing.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8074DFC2180A3C7300C3AF2C"
+            BlueprintIdentifier = "80AE5C84180A3D5800B0BA9A"
             BuildableName = "Now Playing.app"
             BlueprintName = "Now Playing"
             ReferencedContainer = "container:Now Playing.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8074DFC2180A3C7300C3AF2C"
+            BlueprintIdentifier = "80AE5C84180A3D5800B0BA9A"
             BuildableName = "Now Playing.app"
             BlueprintName = "Now Playing"
             ReferencedContainer = "container:Now Playing.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8074DFC2180A3C7300C3AF2C"
+            BlueprintIdentifier = "80AE5C84180A3D5800B0BA9A"
             BuildableName = "Now Playing.app"
             BlueprintName = "Now Playing"
             ReferencedContainer = "container:Now Playing.xcodeproj">
