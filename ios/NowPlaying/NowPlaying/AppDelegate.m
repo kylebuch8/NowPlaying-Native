@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  Now Playing
+//  NowPlaying
 //
-//  Created by Kyle Buchanan on 10/12/13.
+//  Created by Kyle Buchanan on 12/30/13.
 //  Copyright (c) 2013 Kyle Buchanan. All rights reserved.
 //
 
@@ -16,10 +16,6 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    self.mainController = [[MainController alloc] initWithNibName:@"MainController" bundle:nil];
-    self.window.rootViewController = self.mainController;
-    
     return YES;
 }
 

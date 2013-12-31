@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8095223C18172E5D00E263F3 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8095223A18172E5D00E263F3 /* MovieViewController.m */; };
+		8095223D18172E5D00E263F3 /* MovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8095223B18172E5D00E263F3 /* MovieViewController.xib */; };
 		80AE5C89180A3D5800B0BA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AE5C88180A3D5800B0BA9A /* Foundation.framework */; };
 		80AE5C8B180A3D5800B0BA9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AE5C8A180A3D5800B0BA9A /* CoreGraphics.framework */; };
 		80AE5C8D180A3D5800B0BA9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AE5C8C180A3D5800B0BA9A /* UIKit.framework */; };
@@ -21,10 +23,7 @@
 		80AE5CAE180A3D5800B0BA9A /* Now_PlayingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AE5CAD180A3D5800B0BA9A /* Now_PlayingTests.m */; };
 		80AE5CBA180A3DD300B0BA9A /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AE5CB8180A3DD300B0BA9A /* MainController.m */; };
 		80AE5CBB180A3DD300B0BA9A /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AE5CB9180A3DD300B0BA9A /* MainController.xib */; };
-		80BA53A21815D9EE0084F804 /* MovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BA53A01815D9EE0084F804 /* MovieView.m */; };
-		80BA53A31815D9EE0084F804 /* MovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BA53A11815D9EE0084F804 /* MovieView.xib */; };
 		80BA53A51815DA910084F804 /* meatball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80BA53A41815DA910084F804 /* meatball.jpg */; };
-		80BA53A818161B860084F804 /* Something.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BA53A718161B860084F804 /* Something.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8095223918172E5D00E263F3 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		8095223A18172E5D00E263F3 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		8095223B18172E5D00E263F3 /* MovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieViewController.xib; sourceTree = "<group>"; };
 		80AE5C85180A3D5800B0BA9A /* Now Playing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Now Playing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AE5C88180A3D5800B0BA9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80AE5C8A180A3D5800B0BA9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,12 +59,7 @@
 		80AE5CB7180A3DD300B0BA9A /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		80AE5CB8180A3DD300B0BA9A /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		80AE5CB9180A3DD300B0BA9A /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
-		80BA539F1815D9EE0084F804 /* MovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieView.h; sourceTree = "<group>"; };
-		80BA53A01815D9EE0084F804 /* MovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieView.m; sourceTree = "<group>"; };
-		80BA53A11815D9EE0084F804 /* MovieView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieView.xib; sourceTree = "<group>"; };
 		80BA53A41815DA910084F804 /* meatball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meatball.jpg; sourceTree = "<group>"; };
-		80BA53A618161B860084F804 /* Something.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Something.h; sourceTree = "<group>"; };
-		80BA53A718161B860084F804 /* Something.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Something.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,11 +127,9 @@
 				80AE5CB7180A3DD300B0BA9A /* MainController.h */,
 				80AE5CB8180A3DD300B0BA9A /* MainController.m */,
 				80AE5CB9180A3DD300B0BA9A /* MainController.xib */,
-				80BA539F1815D9EE0084F804 /* MovieView.h */,
-				80BA53A01815D9EE0084F804 /* MovieView.m */,
-				80BA53A11815D9EE0084F804 /* MovieView.xib */,
-				80BA53A618161B860084F804 /* Something.h */,
-				80BA53A718161B860084F804 /* Something.m */,
+				8095223918172E5D00E263F3 /* MovieViewController.h */,
+				8095223A18172E5D00E263F3 /* MovieViewController.m */,
+				8095223B18172E5D00E263F3 /* MovieViewController.xib */,
 			);
 			path = "Now Playing";
 			sourceTree = "<group>";
@@ -246,8 +241,8 @@
 				80AE5C93180A3D5800B0BA9A /* InfoPlist.strings in Resources */,
 				80AE5C9B180A3D5800B0BA9A /* Images.xcassets in Resources */,
 				80AE5CBB180A3DD300B0BA9A /* MainController.xib in Resources */,
+				8095223D18172E5D00E263F3 /* MovieViewController.xib in Resources */,
 				80BA53A51815DA910084F804 /* meatball.jpg in Resources */,
-				80BA53A31815D9EE0084F804 /* MovieView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80AE5C99180A3D5800B0BA9A /* AppDelegate.m in Sources */,
-				80BA53A21815D9EE0084F804 /* MovieView.m in Sources */,
-				80BA53A818161B860084F804 /* Something.m in Sources */,
+				8095223C18172E5D00E263F3 /* MovieViewController.m in Sources */,
 				80AE5CBA180A3DD300B0BA9A /* MainController.m in Sources */,
 				80AE5C95180A3D5800B0BA9A /* main.m in Sources */,
 			);
