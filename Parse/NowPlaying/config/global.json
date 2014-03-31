@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "NowPlaying": {
+            "applicationId": "xixYhHiMEB6sYZTW8jBgKFVXxi9d8EqIhablBDCo", 
+            "masterKey": "eGr2WxyzedHzkmDl6x5dFrVjPbso1iVNCSkjz2Ig"
+        }, 
+        "_default": {
+            "link": "NowPlaying"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.15"
+    }
+}

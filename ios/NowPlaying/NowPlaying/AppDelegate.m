@@ -7,15 +7,41 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+#import "GAI.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
+    // Override point for customization after application launch.
+    
+    /*UIPageControl *pageControl = [UIPageControl appearance];
+    pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
+    pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
+    pageControl.backgroundColor = [UIColor whiteColor];*/
+    
+    // set up parse
+    [Parse setApplicationId:@"xixYhHiMEB6sYZTW8jBgKFVXxi9d8EqIhablBDCo" clientKey:@"NqYM5VUyFZzFnHEY0uT5E4zwAMXQafKcpikYUtsI"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    // set up google analytics
+    // Optional: automatically send uncaught exceptions to Google Analytics.
+    [GAI sharedInstance].trackUncaughtExceptions = YES;
+    
+    // Optional: set Google Analytics dispatch interval to e.g. 20 seconds.
+    [GAI sharedInstance].dispatchInterval = 20;
+    
+    // Optional: set Logger to VERBOSE for debug information.
+    [[[GAI sharedInstance] logger] setLogLevel:kGAILogLevelVerbose];
+    
+    // Initialize tracker.
+    id<GAITracker> tracker = [[GAI sharedInstance] trackerWithTrackingId:@"UA-47537704-2"];
+    
     return YES;
 }
 

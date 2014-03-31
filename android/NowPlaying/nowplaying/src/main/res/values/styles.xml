@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBarOverlay" tools:ignore="NewApi">true</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/CustomActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@android:drawable/screen_background_dark_transparent</item>
+        <item name="background">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:displayOptions">useLogo|showHome</item>
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="android:logo">@drawable/logo</item>
+        <item name="logo">@drawable/logo</item>
+        <item name="android:indeterminateProgressStyle">@style/IndeterminateProgress</item>
+        <item name="indeterminateProgressStyle">@style/IndeterminateProgress</item>
+    </style>
+
+    <style name="IndeterminateProgress" parent="@style/Widget.AppCompat.ProgressBar" />
+
+</resources>
